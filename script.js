@@ -3,7 +3,7 @@ var colorText = document.getElementById("text")
 colorText.innerText += " " + color;
 
 document.body.addEventListener("mousemove", track);
-
+document.getElementById("textContainer").style.backgroundColor = color;
 function track(e){
     
     var X = Math.floor(e.clientX / 4)

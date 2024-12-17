@@ -1,5 +1,5 @@
 body {
-  
+  margin: 0;
 }
 #body{
     width: 100vw;
@@ -15,5 +15,9 @@ body {
     position: absolute;
     top: 35%;
     left: 35%;
-    padding: 20px;
 }
+
+#text{
+    margin: 10px;
+}
+
